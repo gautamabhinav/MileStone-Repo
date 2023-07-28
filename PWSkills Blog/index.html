@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PWSkills Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>PWSkills Blog</h1>
+        <button id="addBlogButton">+</button>
+    </header>
+    <main>
+        <div id="blogList">
+            <!-- Blog posts will be dynamically added here -->
+        </div>
+    </main>
+
+    <!-- Add Blog Modal -->
+    <div id="addBlogModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <form id="addBlogForm">
+                <input type="text" id="blogTitle" placeholder="Blog Title" required>
+                <input type="text" id="blogPoster" placeholder="Blog Poster" required>
+                <textarea id="blogDescription" placeholder="Blog Description" required></textarea>
+                <textarea id="blogContent" placeholder="Blog Content" required></textarea>
+                <button type="submit">Add Blog</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Add Blog Modal -->
+    <div id="addBlogModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <form id="addBlogForm">
+                <input type="text" id="blogTitle" placeholder="Blog Title" required>
+                <input type="text" id="blogPoster" placeholder="Blog Poster" required>
+                <textarea id="blogDescription" placeholder="Blog Description" required></textarea>
+                <textarea id="blogContent" placeholder="Blog Content" required></textarea>
+                <button type="submit">Add Blog</button>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
